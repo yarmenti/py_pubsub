@@ -5,8 +5,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pubsub-yarmenti", # Replace with your own username
-    version="0.1",
+    name="pubsub-yarmenti",
+    version="0.2",
     author="yarmenti",
     author_email="yannick.armenti@gmail.com",
     description="A simple pub/sub implementation package",
