@@ -31,7 +31,7 @@ class Publisher(metaclass=abc.ABCMeta):
         """
         if not hasattr(self, "_subscribers"):
             self._subscribers: Dict[str, Set[Subscriber]] = {}
-        return self._subscribers.copy()
+        return self._subscribers
 
     def attach(self, subscriber: Subscriber, message: str) -> None:
         """Attaches the given Subscriber with the given message
