@@ -1,5 +1,5 @@
 __author__ = "Yannick ARMENTI"
-__version__ = "0.2.1"
+__version__ = "0.2.2"
 
 """
 A basic implementation of the publisher / subscriber pattern.

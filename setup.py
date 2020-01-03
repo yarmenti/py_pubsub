@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pubsub-yarmenti",
-    version="0.2.1",
+    version="0.2.2",
     author="yarmenti",
     author_email="yannick.armenti@gmail.com",
     description="A simple pub/sub implementation package",
